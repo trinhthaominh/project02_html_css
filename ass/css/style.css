@@ -27,6 +27,23 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+.main-content .section {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 130px;
+  margin-bottom: 18px;
+}
+.main-content .aim {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+main .desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
 .btn {
   cursor: pointer;
 }
@@ -68,7 +85,7 @@ a {
   padding: 12px 24px;
   flex-shrink: 0;
 }
-/* hero */
+/* =================hero================== */
 .hero {
   display: flex;
   margin-top: 150px;
@@ -238,4 +255,182 @@ a {
   align-items: center;
   font-size: 1rem;
   font-weight: 500;
+}
+/* =================features================== */
+.aim {
+  width: 577px;
+  margin-bottom: 18px;
+  line-height: normal;
+}
+.desc.features {
+  width: 590px;
+  line-height: normal;
+}
+.class-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  width: 1024px;
+}
+
+.class-content h3 {
+  margin-top: 26px;
+  margin-bottom: 16px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: normal;
+}
+.class-content .item {
+  width: 23%;
+}
+
+.class-content .item .desc {
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.68;
+}
+.class-content .item .desc.item1 {
+  width: 168px;
+}
+.class-content .item .desc.item2 {
+  width: 223px;
+}
+.class-content .item .desc.item3 {
+  width: 224px;
+}
+/* =================Courses================== */
+.desc.courses {
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78; /* 177.778% */
+  width: 525px;
+  margin-top: 19px;
+  margin-bottom: 79px;
+}
+.courses .cta-courses {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.courses .cta-courses a {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  padding: 22px auto;
+}
+
+.courses .popular-courses {
+  display: flex;
+  justify-content: space-between;
+}
+.courses .popular-courses img {
+  width: 359px;
+  height: 393px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  opacity: 0.35;
+  background: #d0efed;
+  object-fit: cover;
+  position: relative;
+}
+.courses .course-item {
+  width: 325px;
+  height: 195px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 16px 90px 0 rgba(0, 0, 0, 0.05);
+  position: relative; /* vùng tham chiếu cho absolute bên trong */
+  width: 359px;
+  border-radius: 8px;
+}
+div.course-desc {
+  position: absolute; /* chỉ cần nếu muốn nó đè lên ảnh */
+  top: 322px;
+  left: 17px;
+  width: 325px;
+  height: 195px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 16px 90px 0 rgba(0, 0, 0, 0.05);
+  z-index: 2;
+}
+
+.courses .course-name {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.courses .price {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.courses .price span {
+  color: #0d1111;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.course-item .course-desc,
+.course-item .level {
+  margin-top: 6px;
+  margin-bottom: 18px;
+  color: #767e7e;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.course-item .course-desc ul {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+}
+.course-item .course-desc li {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: outside;
+  margin: 0 10px;
+}
+
+.course-item .course-desc li::marker {
+  color: var(--primary-color);
+}
+
+.stat {
+  margin-top: 389px;
+  display: flex;
+  justify-content: center;
+  gap: 202px;
+  margin-bottom: 264px;
+}
+.stat span {
+  display: inline-block;
+  text-align: center;
+}
+.stat strong {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
