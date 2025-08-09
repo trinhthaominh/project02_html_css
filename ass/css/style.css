@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* --font-heading: "Sen", sans-serif; */
+  --primary-color: #1ebfc1;
+}
+
+html {
+  font-size: 62.5%;
+}
+/* khôi phục lại cỡ chữ mặc định theo rem */
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/* =================common================== */
+a {
+  text-decoration: none;
+  color: #2f3a3b;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 135px);
+  margin-top: 65px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  cursor: pointer;
+}
+.btn-cta {
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 20px 40px;
+}
+
+.header.fixed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 1;
+}
+.nav a {
+  padding: 0 20px;
+}
+
+.header .cta a:first-child {
+  padding-right: 24px;
+}
+
+.header .cta a:last-child {
+  color: #1ebfc1;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  padding: 12px 24px;
+  flex-shrink: 0;
+}
+/* hero */
+.hero {
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 79px;
+  gap: 135px;
+}
+.left-content {
+  padding-top: 93px;
+}
+.left-content p.desc.sub-title {
+  color: #767e7e;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.left-content .desc {
+  width: 37.4rem;
+  height: 9.6rem;
+  margin-bottom: 52px;
+  color: #9da6a5;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78; /* 177.778% */
+}
+.left-content .cta {
+  display: flex;
+  align-items: center;
+}
+
+.left-content .cta .start {
+  margin-left: 50px;
+  padding: 22px 24px;
+  border-radius: 62px;
+  background: #fff;
+  box-shadow: 0 22px 50px 0 rgba(0, 0, 0, 0.05);
+}
+
+.left-content .heading-lv2 {
+  color: #0d1111;
+  width: 458px;
+  height: 144px;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.16; /* 116.129% */
+  margin-bottom: 46px;
+  margin-top: 18px;
+}
+.right-content .image {
+  width: 576px;
+  height: 631px;
+  flex-shrink: 0;
+  background: #e0f7f6;
+  position: absolute;
+}
+
+.right-content .courses {
+  display: flex;
+  align-items: center;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
+  width: 157px;
+  height: 75px;
+  flex-shrink: 0;
+  position: relative;
+  top: 149px;
+  left: -40px;
+  padding: 22px 25px;
+  gap: 16px;
+}
+.right-content .picture .books-course {
+  width: 36px;
+  height: 40px;
+  position: absolute;
+}
+
+.right-content .picture .books-course-inside {
+  position: relative;
+  width: 28px;
+  height: 4px;
+  flex-shrink: 0;
+  top: 20px;
+  right: -4px;
+}
+
+.right-content .courses .desc {
+  width: 55px;
+  flex-shrink: 0;
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+}
