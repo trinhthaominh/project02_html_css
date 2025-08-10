@@ -3,7 +3,6 @@
 }
 
 :root {
-  /* --font-heading: "Sen", sans-serif; */
   --primary-color: #1ebfc1;
 }
 
@@ -257,6 +256,9 @@ main .desc {
   font-weight: 500;
 }
 /* =================features================== */
+main {
+  margin-top: 281px;
+}
 .aim {
   width: 577px;
   margin-bottom: 18px;
@@ -414,7 +416,7 @@ div.course-desc {
 .course-item .course-desc li::marker {
   color: var(--primary-color);
 }
-
+/* =================Statistic================== */
 .stat {
   margin-top: 389px;
   display: flex;
@@ -433,4 +435,209 @@ div.course-desc {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+/* =================Review================== */
+.review {
+  display: flex;
+  margin-bottom: 130px;
+}
+.review img.quotes {
+  margin-bottom: 27px;
+  width: 36px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.review p.quotes {
+  color: #5d6564;
+  width: 419px;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.review span {
+  color: #767e7e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 33px;
+}
+.review .student-name strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.review .btn {
+  margin-top: 52px;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 37px;
+}
+.review .btn a {
+  background: var(--primary-color);
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 19px 22px;
+}
+.review .student-avatar {
+  width: 66%;
+  position: relative;
+}
+.review .student-avatar img {
+  width: 235px;
+  height: 235px;
+  flex-shrink: 0;
+  border-radius: 235px;
+  background: lightgray 50% / cover no-repeat;
+  object-fit: cover;
+}
+.review .student-avatar img.img1 {
+  margin-top: 88px;
+  margin-left: 345px;
+  position: absolute;
+  right: 171px;
+  top: -55px;
+}
+.review .student-avatar img.img2 {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+  top: 19px;
+  right: 0;
+}
+.review .student-avatar img.img3 {
+  position: absolute;
+  top: 0;
+  left: 144px;
+  right: 19px;
+  top: -37px;
+  width: 92px;
+  height: 92px;
+  flex-shrink: 0;
+  border-radius: 92px;
+}
+.review .student-avatar img.img4 {
+  width: 78px;
+  height: 78px;
+  flex-shrink: 0;
+  border-radius: 78px;
+  position: absolute;
+  left: 72px;
+  bottom: 145px;
+}
+.review .student-avatar img.img5 {
+  width: 78px;
+  height: 78px;
+  flex-shrink: 0;
+  border-radius: 78px;
+  position: absolute;
+  bottom: 0;
+  right: 389px;
+}
+.review .student-avatar img.img6 {
+  width: 78px;
+  height: 78px;
+  flex-shrink: 0;
+  border-radius: 78px;
+  position: absolute;
+  right: 32px;
+  bottom: 29px;
+}
+/* =================Ready================== */
+.get-ready {
+  display: flex;
+  align-items: center;
+  gap: 410px;
+  margin-top: 130px;
+  background-color: #def6f5;
+  width: 1440px;
+  height: 272px;
+  flex-shrink: 0;
+  margin-left: -135px;
+  margin-right: -135px;
+  padding-left: 135px;
+}
+.get-ready .desc {
+  width: 397px;
+}
+/* =================footer================== */
+footer .main-content {
+  /* background-color: #1ebfc1; */
+  width: 1440px;
+  height: 272px;
+  flex-shrink: 0;
+  margin-top: 0;
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact .index .item {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.index .item-list li {
+  color: #535353;
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: normal;
+  padding-top: 20px;
+}
+.copy-right {
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 50px;
+}
+.item-list.social li {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 15px;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+}
+.item-list.social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item-list.social li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  margin-top: 3px;
+}
+
+.item-list.social li img {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
